@@ -2,6 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <FontFamily x:Key="Stereofunk">pack://application;,,,/Fonts/#Stereofunk Display</FontFamily>
+    <FontFamily x:Key="LatoThin">pack://application;,,,/Fonts/#Lato Thin</FontFamily>
 
     <Style TargetType="{x:Type Control}" x:Key="Titlebar">
         <Setter Property="FontFamily" Value="{StaticResource Stereofunk}"/>

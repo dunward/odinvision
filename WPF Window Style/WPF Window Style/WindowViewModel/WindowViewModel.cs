@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Input;
 
 namespace WPF_Window_Style
 {
@@ -42,6 +43,12 @@ namespace WPF_Window_Style
 
         public Thickness OuterMarginSizeThickness { get { return new Thickness(OuterMarginSize); } }
 
+        public ICommand MinimizeCommand { get; set; }
+
+        public ICommand MaximizeCommand { get; set; }
+
+        public ICommand CloseCommand { get; set; }
+
         public WindowViewModel(Window _window)
         {
             window = _window;
@@ -54,6 +61,23 @@ namespace WPF_Window_Style
                 OnPropertyChanged(nameof(OuterMarginSizeThickness));
                 OnPropertyChanged(nameof(TitleHeightGridLenght));
             };
+
+            MinimizeCommand = new RelayCommand(() => window.WindowState = WindowState.Minimized);
+            MaximizeCommand = new RelayCommand(() =>
+            {
+                switch (window.WindowState)
+                {
+                    case WindowState.Maximized:
+                        window.WindowState = WindowState.Normal;
+                        break;
+
+                    case WindowState.Normal:
+                        window.WindowState = WindowState.Maximized;
+                        break;
+                }
+            }
+            );
+            CloseCommand = new RelayCommand(() => window.Close());
         }
     }
 }
