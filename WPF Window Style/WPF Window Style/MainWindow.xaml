@@ -5,8 +5,69 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Window_Style"
         mc:Ignorable="d"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <Style TargetType="{x:Type local:MainWindow}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Window}">
+                        <Border Padding="{Binding OuterMarginSizeThickness, FallbackValue = 10}">
+
+                            <Grid>
+                                <Border Background="{StaticResource GrayBrush}">
+                                    <Border.Effect>
+                                        <DropShadowEffect ShadowDepth="0" Opacity="0.2" BlurRadius="10"/>
+                                    </Border.Effect>
+                                </Border>
+
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="{Binding TitleHeightGridLenght}"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Grid Grid.Column="0" Panel.ZIndex="1" Background="{StaticResource DarkGrayBrush}">
+
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="10px"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <TextBlock Text="CHRONOS"
+                                                   FontFamily="{StaticResource Stereofunk}"
+                                                   Foreground="{StaticResource TitleGrayBrush}"
+                                                   TextOptions.TextHintingMode="Animated"
+                                                   Height="14"
+                                                   Grid.Column="1"/>
+                                        
+                                        <!--<Viewbox Grid.Column="1" Height="10">
+                                            <Image Source="antititle.png"/>
+                                        </Viewbox>-->
+                                        
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    
+    <WindowChrome.WindowChrome>
+        <WindowChrome
+            ResizeBorderThickness="{Binding ResizeBorderThickness}"
+            CaptionHeight="{Binding TitleHeight}"
+            GlassFrameThickness="0"/>
+    </WindowChrome.WindowChrome>
+    
     <Grid>
-        <TextBlock FontFamily="{}"
+        <TextBlock Text="{Binding Test}" FontSize="40"/>
     </Grid>
 </Window>

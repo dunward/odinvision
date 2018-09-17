@@ -23,6 +23,8 @@ namespace WPF_Window_Style
         public MainWindow()
         {
             InitializeComponent();
+
+            this.DataContext = new WindowViewModel(this);
         }
     }
 }

@@ -1,5 +1,35 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:WPF_Window_Style.Styles">
-    
+
+    <Color x:Key="TitleGray">#a5a6a7</Color>
+    <SolidColorBrush x:Key="TitleGrayBrush" Color="{StaticResource TitleGray}"/>
+
+    <Color x:Key="BackgroundLight">#efefef</Color>
+    <SolidColorBrush x:Key="BackgroundLightBrush" Color="{StaticResource BackgroundLight}"/>
+
+    <Color x:Key="BackgroundVeryLight">#fafafa</Color>
+    <SolidColorBrush x:Key="BackgroundVeryLightBrush" Color="{StaticResource BackgroundVeryLight}"/>
+
+    <Color x:Key="ForegroundMain">#686868</Color>
+    <SolidColorBrush x:Key="ForegroundMainBrush" Color="{StaticResource ForegroundMain}"/>
+
+    <Color x:Key="ForegroundVeryDark">#000000</Color>
+    <SolidColorBrush x:Key="ForegroundVeryDarkBrush" Color="{StaticResource ForegroundVeryDark}"/>
+
+    <Color x:Key="ForegroundLight">#ffffff</Color>
+    <SolidColorBrush x:Key="ForegroundLightBrush" Color="{StaticResource ForegroundLight}"/>
+
+    <Color x:Key="LightGray">#36393f</Color>
+    <SolidColorBrush x:Key="LightGrayBrush" Color="{StaticResource LightGray}"/>
+
+    <Color x:Key="DemiLightGray">#2f3136</Color>
+    <SolidColorBrush x:Key="DemiLightGrayBrush" Color="{StaticResource DemiLightGray}"/>
+
+    <Color x:Key="Gray">#2a2c31</Color>
+    <SolidColorBrush x:Key="GrayBrush" Color="{StaticResource Gray}"/>
+
+    <Color x:Key="DarkGray">#202225</Color>
+    <SolidColorBrush x:Key="DarkGrayBrush" Color="{StaticResource DarkGray}"/>
+
 </ResourceDictionary>
