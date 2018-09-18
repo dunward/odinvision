@@ -21,7 +21,7 @@ namespace WPF_Window_Style
         {
             get
             {
-                return window.WindowState == WindowState.Maximized ? 32 : 26;
+                return 26;
             }
         }
 
@@ -33,7 +33,7 @@ namespace WPF_Window_Style
         {
             get
             {
-                return window.WindowState == WindowState.Maximized ? 0 : _outerMarginSize;
+                return window.WindowState == WindowState.Maximized ? 6 : _outerMarginSize;
             }
             set
             {
