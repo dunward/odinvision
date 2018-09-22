@@ -2,7 +2,7 @@
 WPF Window Style is just study project for me.<br>
 Learn to WPF and binding work flow.<br>
 
-![WindowStyle](./ws.gif)
+![WindowStyle](./Images/Introduce.gif)
 
 # Update
 - [0.0.1](./Logs/0.0.1.md)
