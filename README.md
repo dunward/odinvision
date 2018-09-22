@@ -5,4 +5,4 @@ Learn to WPF and binding work flow.<br>
 ![WindowStyle](./ws.gif)
 
 # Update
-- Minimize, Maximize, Close buttons content changed text to images. ![command](./commands.PNG)
+- [0.0.1](./Logs/0.0.1.md)
