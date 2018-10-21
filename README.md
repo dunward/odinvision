@@ -1,6 +1,5 @@
-# WPF Window Style
-WPF Window Style is just study project for me.<br>
-Learn to WPF and binding work flow.<br>
+# OdinWindowTheme
+OdinWindowTheme is support your wpf application window design.<br>
 
 ![WindowStyle](./Images/Introduce.gif)
 
