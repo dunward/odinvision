@@ -1,0 +1,13 @@
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\OdinTheme.csprojAssemblyReference.cache
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\OdinWindow\OdinThemeComponent.baml
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\OdinTheme_MarkupCompile.cache
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\OdinTheme.g.resources
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\OdinTheme.Properties.Resources.resources
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\OdinTheme.csproj.GenerateResource.cache
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\OdinTheme.csproj.CoreCompileInputs.cache
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\bin\Debug\OdinTheme.dll
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\bin\Debug\OdinTheme.pdb
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\OdinTheme_MarkupCompile.lref
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\OdinTheme.dll
+C:\Users\EGLIK\source\repos\OdinTheme\OdinTheme\obj\Debug\OdinTheme.pdb
