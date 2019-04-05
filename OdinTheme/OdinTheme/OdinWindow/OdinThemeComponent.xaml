@@ -11,7 +11,10 @@
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="Red" TargetName="border"/>
+                            <Setter Property="Background" Value="#FFDE0000" TargetName="border"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" Value="#FFAA0000" TargetName="border"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -23,16 +26,28 @@
         <Border
             x:Name="border"
             Background="#FF161616"
-            BorderThickness="0">
+            BorderThickness="6">
+            <Border.Effect>
+                <DropShadowEffect Opacity="0.7" BlurRadius="5" ShadowDepth="0"/>
+            </Border.Effect>
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="27"/>
                     <RowDefinition />
                 </Grid.RowDefinitions>
 
-                <Grid>
+                <Grid
+                    Background="Wheat">
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                        <Button Padding="10,0" Command="{x:Static SystemCommands.CloseWindowCommand}" WindowChrome.IsHitTestVisibleInChrome="True" Style="{StaticResource CloseButton}">
+                        <Button Width="40" Command="{x:Static SystemCommands.CloseWindowCommand}" WindowChrome.IsHitTestVisibleInChrome="True" Style="{StaticResource CloseButton}">
+                            <!--by Balraj Chana-->
+                            <Image Source="pack://application:,,,/OdinTheme;component/Resources/cross.png" Stretch="None"/>
+                        </Button>
+                        <Button Width="40" Command="{x:Static SystemCommands.CloseWindowCommand}" WindowChrome.IsHitTestVisibleInChrome="True" Style="{StaticResource CloseButton}">
+                            <!--by Balraj Chana-->
+                            <Image Source="pack://application:,,,/OdinTheme;component/Resources/cross.png" Stretch="None"/>
+                        </Button>
+                        <Button Width="40" Command="{x:Static SystemCommands.CloseWindowCommand}" WindowChrome.IsHitTestVisibleInChrome="True" Style="{StaticResource CloseButton}">
                             <!--by Balraj Chana-->
                             <Image Source="pack://application:,,,/OdinTheme;component/Resources/cross.png" Stretch="None"/>
                         </Button>
@@ -44,6 +59,10 @@
     
     <Style TargetType="{x:Type o:OdinWindow}">
         <Setter Property="Template" Value="{StaticResource OdinThemeTemplate}"/>
+        <Setter Property="AllowsTransparency" Value="True"/>
+        <Setter Property="MinWidth" Value="200"/>
+        <Setter Property="MinHeight" Value="100"/>
+        <Setter Property="WindowStyle" Value="None"/>
         <Setter Property="WindowChrome.WindowChrome">
             <Setter.Value>
                 <WindowChrome

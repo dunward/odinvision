@@ -87,5 +87,8 @@
   <ItemGroup>
     <Resource Include="Resources\cross.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\close.svg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
