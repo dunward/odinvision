@@ -1,3 +1,5 @@
+![license](https://img.shields.io/github/license/eglik/OdinWindowTheme.svg?color=brightgreen) ![repo](https://img.shields.io/github/repo-size/eglik/OdinWindowTheme.svg)<br>
+
 ## OdinWindowTheme
 OdinWindowTheme is support your wpf application window design.<br>
 
