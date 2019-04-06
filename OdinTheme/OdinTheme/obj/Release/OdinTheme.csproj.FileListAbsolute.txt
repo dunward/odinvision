@@ -1,0 +1,13 @@
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\bin\Release\OdinTheme.dll
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\bin\Release\OdinTheme.pdb
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\OdinTheme.csprojAssemblyReference.cache
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\OdinTheme_MarkupCompile.cache
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\OdinTheme_MarkupCompile.lref
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\OdinWindow\OdinThemeComponent.baml
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\OdinTheme.g.resources
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\OdinTheme.Properties.Resources.resources
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\OdinTheme.csproj.GenerateResource.cache
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\OdinTheme.csproj.CoreCompileInputs.cache
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\OdinTheme.dll
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Release\OdinTheme.pdb

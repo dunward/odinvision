@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdinTheme", "OdinTheme\OdinTheme.csproj", "{7B443886-D83D-471F-8545-437E61A88377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{9C80BC1F-1876-4B7B-AC17-86D6C734CA25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppSample", "WpfApp\WpfAppSample.csproj", "{9C80BC1F-1876-4B7B-AC17-86D6C734CA25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

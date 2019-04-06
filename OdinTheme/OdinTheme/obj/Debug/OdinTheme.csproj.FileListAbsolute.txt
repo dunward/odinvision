@@ -24,3 +24,16 @@ C:\Users\FAMOZ-22\Desktop\study\github\OdinWindowTheme\OdinTheme\OdinTheme\obj\D
 C:\Users\FAMOZ-22\Desktop\study\github\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme.csproj.CoreCompileInputs.cache
 C:\Users\FAMOZ-22\Desktop\study\github\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme.dll
 C:\Users\FAMOZ-22\Desktop\study\github\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme.pdb
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\bin\Debug\OdinTheme.dll
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\bin\Debug\OdinTheme.pdb
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme.csprojAssemblyReference.cache
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme_MarkupCompile.cache
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme_MarkupCompile.lref
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinWindow\OdinThemeComponent.baml
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme.g.resources
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme.Properties.Resources.resources
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme.csproj.GenerateResource.cache
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme.csproj.CoreCompileInputs.cache
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme.dll
+C:\Users\eglik\Desktop\project\OdinWindowTheme\OdinTheme\OdinTheme\obj\Debug\OdinTheme.pdb

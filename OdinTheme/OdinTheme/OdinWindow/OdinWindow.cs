@@ -42,7 +42,14 @@ namespace OdinTheme
 
         void CommandBinding_MaximizeExecuted(object sender, ExecutedRoutedEventArgs e)
         {
-            SystemCommands.MaximizeWindow(this);
+            if(WindowState == WindowState.Maximized)
+            {
+                SystemCommands.RestoreWindow(this);
+            }
+            else
+            {
+                SystemCommands.MaximizeWindow(this);
+            }
         }
 
         void CommandBinding_CloseExecuted(object sender, ExecutedRoutedEventArgs e)

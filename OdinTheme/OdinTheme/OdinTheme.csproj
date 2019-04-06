@@ -88,7 +88,16 @@
     <Resource Include="Resources\cross.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\close.svg" />
+    <EmbeddedResource Include="Resources\close.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\minimize.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
