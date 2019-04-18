@@ -5,7 +5,7 @@ OdinWindowTheme is support your wpf application window design.<br>
 
 ![WhiteTheme](./Resources/white-theme.png)
 
-## Tutorial
+## Quick Start
 First. Create WPF app and add reference OdinTheme.dll<br>
 Second. Add ``xmlns:o="clr-namespace:OdinTheme;assembly=OdinTheme"`` like this<br>
 
