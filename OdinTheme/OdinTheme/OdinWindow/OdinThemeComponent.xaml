@@ -34,16 +34,13 @@
     <ControlTemplate x:Key="OdinThemeTemplate" TargetType="{x:Type o:OdinWindow}">
         <Border
             x:Name="shadow"
-            BorderThickness="6"
-            CornerRadius="3">
+            BorderThickness="7">
             <Border.Effect>
-                <DropShadowEffect Opacity="0.7" BlurRadius="5" ShadowDepth="0"/>
+                <DropShadowEffect Opacity="0.4" BlurRadius="10" ShadowDepth="0"/>
             </Border.Effect>
             
             <Border
-            x:Name="border"
-            Background="White"
-            CornerRadius="3">
+                x:Name="border" Background="#272a30">
 
                 <Grid>
                     <Grid.RowDefinitions>
@@ -51,7 +48,7 @@
                         <RowDefinition />
                     </Grid.RowDefinitions>
 
-                    <Grid>
+                    <Grid Background="#1e1e1f">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                             <Button Width="26" Command="{x:Static SystemCommands.MinimizeWindowCommand}" WindowChrome.IsHitTestVisibleInChrome="True" Style="{StaticResource CloseButton}">
                                 <Image Source="pack://application:,,,/OdinTheme;component/Resources/minimize.png" Stretch="Fill" Style="{StaticResource ImageOpacityAnimation}"/>
@@ -64,6 +61,11 @@
                             </Button>
                         </StackPanel>
                     </Grid>
+
+                    <ContentPresenter Grid.Row="1"
+                        Content="{TemplateBinding Content}"
+                        ContentTemplate="{TemplateBinding ContentTemplate}"
+                        Cursor="{TemplateBinding Cursor}"/>
                 </Grid>
             </Border>
         </Border>
