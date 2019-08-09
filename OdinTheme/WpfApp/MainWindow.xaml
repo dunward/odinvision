@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:WpfApp"
         xmlns:o="clr-namespace:OdinTheme;assembly=OdinTheme"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" MinWidth="500" MinHeight="300">
+        Title="ProgramTitle" Height="450" Width="800" MinWidth="500" MinHeight="300">
     <Grid>
-        <TextBlock Text="HELLO WORLD" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+        <TextBlock Text="HELLO WORLD" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold"/>
     </Grid>
 </o:OdinWindow>

@@ -40,7 +40,7 @@
             </Border.Effect>
             
             <Border
-                x:Name="border" Background="#272a30">
+                x:Name="border" Background="#383b41">
 
                 <Grid>
                     <Grid.RowDefinitions>
@@ -50,14 +50,15 @@
 
                     <Grid Background="#1e1e1f">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Label Content="{TemplateBinding Title}" Foreground="White" Background="#FF27272B"/>
                             <Button Width="26" Command="{x:Static SystemCommands.MinimizeWindowCommand}" WindowChrome.IsHitTestVisibleInChrome="True" Style="{StaticResource CloseButton}">
-                                <Image Source="pack://application:,,,/OdinTheme;component/Resources/minimize.png" Stretch="Fill" Style="{StaticResource ImageOpacityAnimation}"/>
+                                <Image Source="pack://application:,,,/OdinTheme;component/Resources/minimize.png" Style="{StaticResource ImageOpacityAnimation}"/>
                             </Button>
                             <Button Width="26" Command="{x:Static SystemCommands.MaximizeWindowCommand}" WindowChrome.IsHitTestVisibleInChrome="True" Style="{StaticResource CloseButton}">
-                                <Image Source="pack://application:,,,/OdinTheme;component/Resources/maximize.png" Stretch="Fill" Style="{StaticResource ImageOpacityAnimation}"/>
+                                <Image Source="pack://application:,,,/OdinTheme;component/Resources/maximize.png" Style="{StaticResource ImageOpacityAnimation}"/>
                             </Button>
-                            <Button Width="26" Margin="0, 0, 3, 0" Command="{x:Static SystemCommands.CloseWindowCommand}" WindowChrome.IsHitTestVisibleInChrome="True" Style="{StaticResource CloseButton}">
-                                <Image Source="pack://application:,,,/OdinTheme;component/Resources/close.png" Stretch="Fill" Style="{StaticResource ImageOpacityAnimation}"/>
+                            <Button Width="26" Command="{x:Static SystemCommands.CloseWindowCommand}" WindowChrome.IsHitTestVisibleInChrome="True" Style="{StaticResource CloseButton}">
+                                <Image Source="pack://application:,,,/OdinTheme;component/Resources/close.png" Style="{StaticResource ImageOpacityAnimation}"/>
                             </Button>
                         </StackPanel>
                     </Grid>
