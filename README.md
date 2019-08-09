@@ -3,7 +3,7 @@
 ## OdinWindowTheme
 OdinWindowTheme is support your wpf application window design.<br>
 
-![WhiteTheme](./Resources/black-theme.png)
+![BlackTheme](./Resources/black-theme.PNG)
 
 ## Quick Start
 First. Create WPF app and add reference OdinTheme.dll<br>
