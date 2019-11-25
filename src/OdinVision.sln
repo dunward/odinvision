@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdinVision", "OdinVision\OdinVision.csproj", "{7B443886-D83D-471F-8545-437E61A88377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdinVision.Wpf.Sample", "OdinVision.Wpf.Sample\OdinVision.Wpf.Sample.csproj", "{9C80BC1F-1876-4B7B-AC17-86D6C734CA25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B443886-D83D-471F-8545-437E61A88377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B443886-D83D-471F-8545-437E61A88377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B443886-D83D-471F-8545-437E61A88377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B443886-D83D-471F-8545-437E61A88377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C80BC1F-1876-4B7B-AC17-86D6C734CA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C80BC1F-1876-4B7B-AC17-86D6C734CA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C80BC1F-1876-4B7B-AC17-86D6C734CA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C80BC1F-1876-4B7B-AC17-86D6C734CA25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4400DEC-4B9E-4803-9D78-FF88E3604F01}
+	EndGlobalSection
+EndGlobal
