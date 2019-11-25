@@ -1,4 +1,9 @@
-![license](https://img.shields.io/github/license/eglik/OdinWindowTheme.svg?color=brightgreen) ![repo](https://img.shields.io/github/repo-size/eglik/OdinWindowTheme.svg)<br>
+<p align="center"><img src ="https://img.shields.io/badge/.NET%20Core-3.0-brightgreen.svg"/> <img src ="https://img.shields.io/github/license/eglik/OdinWindowTheme.svg?color=brightgreen"/></p>
+
+# Warning
+This project is in refactoring. You can't use this library now.
+
+<br>
 
 ## OdinWindowTheme
 OdinWindowTheme is support your wpf application window design.<br>
